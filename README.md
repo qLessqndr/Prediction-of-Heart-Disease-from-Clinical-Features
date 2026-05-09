@@ -102,5 +102,3 @@ We also grouped errors by `age_group` and `sex`. Misclassification is not unifor
 Pooled random splits look optimistic compared with GroupKFold and LOSO, which is what we expected when hospitals differ. Logistic regression stays strong on mean AUC when sites move; SVM often wins mean F1 and mean accuracy in grouped validation. Calibration for logistic regression is moderate (Brier 0.1773). In real use we would care about fairness across age and sex, not only average metrics.
 
 ---
-
-*Figures are stored under [`report/figures/`](report/figures/). The PDF report is [`report/report.tex`](report/report.tex) (compile with LaTeX).*
